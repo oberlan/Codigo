@@ -24,7 +24,7 @@ private:
 
 int main(){
 
-	double pi = 3.1415;
+	double pi = 3.14;
 	std::cout.imbue(std::locale(std::cout.getloc(), new DecimalSeparator<char>(',')));
 	cout << pi << endl;
 
